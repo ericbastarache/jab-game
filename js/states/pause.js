@@ -5,7 +5,7 @@ pause.prototype = {
 
   },
 
-  pause: function () {
-
+  unPause: function () {
+    this.game.state.start("Game");
   }
 };
