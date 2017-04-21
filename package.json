@@ -1,0 +1,11 @@
+{
+  "name": "jab-game",
+  "version": "1.0.0",
+  "description": "Just another breakout game",
+  "main": "index.js",
+  "author": "Eric Bastarache <eric_bastarache@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "http-server"
+  }
+}
