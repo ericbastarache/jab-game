@@ -5,7 +5,7 @@
 * yarn
 * http-server
 
-# After cloning/downloading this repo do the following to run the game
+## After cloning/downloading this repo do the following to run the game
 
 1. `cd` into the project on your computer (example C:/<yourname>/<yourdirectory>)
 2. Run `yarn install` to install http-server for the project
