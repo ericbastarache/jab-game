@@ -15,6 +15,7 @@
   <script src="js/states/preload.js"></script>
   <script src="js/states/mainmenu.js"></script>
   <script src="js/states/game.js"></script>
+  <script src="js/states/pause.js"></script>
   <script src="js/states/gameover.js"></script>
   <script>
   (function () {
@@ -23,6 +24,7 @@
     game.state.add("Preload", preload);
     game.state.add("MainMenu", mainMenu);
     game.state.add("Game", game);
+    game.state.add("Pause", pause);
     game.state.add("GameOver", gameOver);
     game.state.start("Boot");
   })();
